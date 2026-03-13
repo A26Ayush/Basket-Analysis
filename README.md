@@ -1,7 +1,9 @@
-# Basket-Analysis
+**# Basket-Analysis**
 Basket Analysis is a data mining technique that identifies items frequently purchased together in transactions to uncover hidden purchasing patterns. It uses association rules—often generated via the Apriori algorithm—to help businesses optimize product placements, create targeted promotions, and increase average order value
 
 Market Basket Analysis Automation
+
+
 **1. Data Preparation**
 
 The first step of the project involves preparing transaction data for analysis. The system accepts a CSV file uploaded by the user and allows dynamic column selection through dropdown menus. For the analysis to work correctly, the dataset must contain the following essential columns:
@@ -19,6 +21,7 @@ Transforming the dataset into a basket format (transaction-item matrix).
 Cleaning and structuring the data to make it compatible with the Apriori algorithm.
 
 This preparation step ensures that the dataset is organized correctly for identifying product relationships.
+
 
 
 **2. Python Automation**
@@ -42,6 +45,7 @@ Lift – the strength of the relationship between products compared to random ch
 The automation dynamically processes any uploaded dataset and produces insights in seconds.
 
 
+
 **3. Outputs**
 
 The application produces several analytical outputs to help understand purchasing patterns:
@@ -55,6 +59,7 @@ Interactive Plots comparing key metrics such as support, confidence, and lift.
 Dynamic filtering options allowing users to explore different combinations and rules.
 
 These outputs help visualize product associations and uncover hidden buying patterns.
+
 
 
 **4. Business Benefits**
